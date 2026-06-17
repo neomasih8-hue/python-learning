@@ -1,0 +1,30 @@
+today I learned there are 3 perspectives for viewing vectors
+1) phy, maths and Cs
+phy sees vector as 2d line that have any direction and length along any direction only if they are both same.
+.) these are 2D but we live in 3D
+Cs sees vector as order list of numbers
+.) the dimensions can be form of 2D depeding on what we doing 
+Maths generalized both of them, they believe vector untill and unless added or multiply and make sense is known to be a vector
+--------------------------------------------------------------------------------------------------------------------------------------------
+A vector is an arrow with length (magnitude) and direction.
+In math, we usually think of vectors as coordinates (e.g., [3, 2] means go 3 units right and 2 units up).
+You can scale a vector (multiply by a number) → makes it longer or shorter.
+You can add vectors (tip-to-tail method) → gets a new vector.
+Vectors are the building blocks of everything in linear algebra.
+--------------------------------------------------------------------------------------------------------------------------------------------
+Linear Combination = Multiply vectors by numbers (scalars) and add them.
+Span = All possible points you can reach by making linear combinations of some vectors.
+Example: Two vectors in 2D space usually span the entire plane.
+Basis Vectors = The simplest set of vectors that can span the whole space (usually î and ĵ — the unit vectors along x and y axes).
+If vectors are linearly dependent (one is a multiple of another), their span is smaller (just a line).
+--------------------------------------------------------------------------------------------------------------------------------------------
+A Linear Transformation is a function that moves every vector in a special way:
+Straight lines stay straight.
+Grid remains evenly spaced (parallel lines stay parallel).
+Origin stays fixed.
+
+Examples: Rotation, scaling, shearing, reflection.
+Matrix = A compact way to represent a linear transformation.
+The columns of the matrix tell you where the basis vectors (î and ĵ) land after transformation.
+
+Multiplying a matrix by a vector = Apply the transformation to that vector.
