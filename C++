@@ -31,3 +31,77 @@ ______________
 ____________
 _______________
 */
+---------------------------------------------------------------------------------------------------------------------------------------------
+Varibles
+1) declaration n assignments
+to store a whole number----
+int "any unique indentifier(for eg any alphabetical like abc xyz)"; //declaration(comment)
+let just say i choose "Z"
+Z = "any number"; //assignment
+std::cout << Z;
+Output: the number you assigned or put 
+In case where you dont know what value you would like to give a varible you can assign later
+int A = 1;
+int B = 2;
+std::cout << A << '\n'
+std::cout << B << '\n'
+output : 1
+         2
+int A = 1;
+int B = 2;
+int sum = A + B;
+std::cout << A << '\n';
+std::cout << B << '\n';
+std::cout << sum << '\n';
+Output: 1
+       2
+      3
+For decimal if we do that like 
+int robux = 67.11
+int twin_tower = 7.11
+std:cout << robux << '\n';
+std:cout << twin_tower << '\n';
+output: wont show the decimal it would show
+67
+7
+for decial 
+double robux = 67.11;
+double twin_towers = 7.11;
+
+std::cout << robux << '\n';
+std::cout << twin_towers << '\n';
+output: 
+67.11
+7.11
+------------------------------------------------------------------------------------------------------------------------------------------
+Now we have stringes basically char but we can store more variable names and stuff
+//single character
+char student = 'A';
+char grades = 'C';
+std::cout <<student<<'\n';
+std::cout <<grades<<'\n';
+using '\n' really feels systematic 
+output: A
+C
+//boolean(true or false)
+bool cut = true;
+bool power = false;
+std::cout <<cut<<'\n';
+std::cout <<power<<'\n';
+output:
+1(true)
+0(false)
+//strings(object that represent sequence of string)
+std::string name = "Arren";
+std::string friends = "erebus"; Note# in here friend is a keyword for C++ so dont use it, it would give error
+std::string anime = "The universal monster";
+std::cout<<name<<'\n';
+std::cout<<" You're stupid "<< friends <<'\n';
+std::cout<<friends<<'\n';
+std::cout<<" You're stupid "
+Output:Arren
+ You're stupid erebus
+erebus
+ You're stupid Arren.
+also use space like i did when ur typing a sentence on std:cout bez it would be js conjusted
+laol--------------------------------------------------------------------------------------------------------------------------------------
