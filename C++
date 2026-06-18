@@ -1,0 +1,33 @@
+So, today i learned that #include <iostream> 
+where iostream = head file that contains functions for basic input and output operations
+Main function where the program began is in main(){
+stb::cout << "I like something that something dosent like anything";
+return 0;
+}
+--------------------------------------------------------------------------------------------------------------------------------------------
+Adding another line-
+#include <iostream>
+int main(){
+stb::cout << "I dont like someone who dosent like someone";
+stb::cout << "what do you mean?":
+if i do that the output would look conjusted
+output: I dont like someone who dosent like someone what do you mean?
+to make it better---
+stb::cout << "I dont like someone who dosent like someone" << std::endl;
+and same thing for the other line. Which now result in like this
+output: I dont like someone who dosent like someone
+        what do you mean?
+much clean and for like better or perhaps ur lazy use '\n'
+I use endl because it will flush the output buffer.
+return 0;
+}
+---------------------------------------------------------------------------------------------------------------------------------------------
+Comments are usally ignored there are 2 types i learned 
+a single comment
+//___________ underscore mean any sentence you want to write
+A multi-line-comment
+/*
+______________
+____________
+_______________
+*/
