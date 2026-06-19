@@ -106,3 +106,70 @@ erebus
  You're stupid Arren.
 also use space like i did when ur typing a sentence on std:cout bez it would be js conjusted
 laol--------------------------------------------------------------------------------------------------------------------------------------
+//Constant basically a keyword that prevent modifying anything 
+const double PI = 3.14;
+const double radius = 12;
+const double circumference = PI*radius*2;
+std::cout<<circumference<<"cm";
+Output:
+75.36cm
+2nd example:----------------------------------------------------
+const double speed_of_light = 3.00 * 10e8;
+const double wave_length = 10;
+  const double velocity = speed_of_light / wave_length;
+  
+  std::cout<<velocity<<"m/s"; 
+Note#: for divide use "/", for power use "e" 
+output:
+3e+08m/s
+------------------------------------------------------------------------------------------------------------------------------------------
+Namespaces: basically we can prevent names conflicts in large project 
+let just say im arren and ur arren as well, we look identical and 100% similar so if someone ask who is real arren we would get confused 
+since we both are real arren that's why namespace works in here to resolve the conflicts of who is who.
+
+namespace first{
+    
+  int x = 2;  
+}
+int main() {
+
+int  x = 1;
+std::cout<<x<<'\n';
+std::cout<<first::x<<'\n';
+Output:
+1
+2
+note# dont print inside the namespace because its a blueprint to organized names not to execute codes
+namespace first{  
+  int x = 2;  
+}
+int main() {
+ using namespace first;  (using the namespace first mean we can print without putting the namespace variable name inside our printer
+std::cout<<x<<'\n';
+output: 
+2
+Note# there is high Priority and lower priority and the compiler strictly followes this discrimination.
+main () is high priority so when you use namespace first but you had already given varible name and value inside main() it wouldnt count it
+.) there's called another which is namespace string
+using namespace std;
+
+string name = "erebus";
+cout<<name<<": what?";
+output:
+erebus: what?
+-------------------------------------------------------------------------------------------------------------------------------------------
+Typedef: giving a datatype a nickname which helps on readability and reduce typos
+#include <vector>
+typedef std::string W_t;
+int main (){
+W_t character = "chara";
+std::cout << character;
+Output:
+chara
+it is not nesscary to use #include <vector> its only use when u create multiple characters
+typedef int num_t
+num_t A = 67
+std::cout<<A;
+output:
+67
+typedef is replaced by 'using' but it only works better with templates. that's it for today cya
