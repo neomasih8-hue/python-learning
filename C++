@@ -30,7 +30,7 @@ A multi-line-comment
 ______________
 ____________
 _______________
-*/
+*/ (anything b/w them would be ignored by the executor even if ur code is working)
 ---------------------------------------------------------------------------------------------------------------------------------------------
 Varibles
 1) declaration n assignments
