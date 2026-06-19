@@ -98,5 +98,74 @@ Output:
 To replace an existing character to something you want inside the string we use .replace("name of existing character", "to new character"))
 Elaria = "Arren"
 print(Elaria.replace("Arren", "erebus"))
-Output:
-erebus
+Output = erebus
+----------------------------------------------------------------------------------------------------------------------------------------------
+working with numbers
+print(1) or 
+print(0.1) or 
+print (-1.2) or print(-1)
+we can also do basic arthmetics
+print(any number + - / * any number)
+print(1+2*3)
+output = 9
+But if we want to add first then multiply we have to seperate them using paranthesis
+print((1+2)*3)
+output = 12
+modulus operator
+print (10 % 3) 
+output = 1
+to add stringes in variables
+num = 7
+print("my fav number is " + str(num))
+output: 
+my fav number is 7
+Abs aka absolute value of any number
+by using this paranthesis
+num = -71.1
+print(abs(num))
+output = 71.1
+Now there are many maths function some needs a specific python math to get the access of those function
+.)Normal math function
+1) POW
+basically 3^2 
+print(pow(3, 2)) (the power of the number you wanted to do, the amount of number dividing itself)
+output: 
+3
+2) MAX
+give max number if print(3, 2) it would give bigger number
+output:
+3
+3) MIN opposite of it if print (3, 2) it would give smaller number
+output:
+2
+4)Round
+basically rounding off
+print(round(3.2)) or print(round(3.7))
+output:
+3, 4
+Now for the python math which we can get access to specific math functions
+from math import *
+1) floor: it chopped or remove decimal
+print(floor(3.1))
+output:
+3
+2) ciel: basically roundoff
+print(ciel(3.1))
+output:
+3
+3)sqrt: square root of a number
+print(sqrt(2))
+output: 
+4
+-----------------------------------------------------------------------------------------------------------------------------------------------
+Getting input from users
+basically an intro before the gameplay 
+for example ur math teacher asked u whats 2+5 is 
+and you being a brilliant prodigy says its 7
+and congrats this is it.
+variable name = input("any sentence:")
+print("yo wsp" + variable name + "bruh")
+output:
+any sentence: heyy wspp
+yo wsp bruh
+-------------------------------------------------------------------------------------------------------------------------------------------------
