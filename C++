@@ -1,9 +1,10 @@
 So, today i learned that #include <iostream> 
 where iostream = head file that contains functions for basic input and output operations
 Main function where the program began is in main(){
-stb::cout << "I like something that something dosent like anything";
+std::cout << "I like something that something dosent like anything";
 return 0;
 }
+so basically std::count << "varible name" is ur print if you didnt wrote it nothing would print ofc
 --------------------------------------------------------------------------------------------------------------------------------------------
 Adding another line-
 #include <iostream>
