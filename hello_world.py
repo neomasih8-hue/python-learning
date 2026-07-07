@@ -169,3 +169,34 @@ output:
 any sentence: heyy wspp
 yo wsp bruh
 -------------------------------------------------------------------------------------------------------------------------------------------------
+My first project-----A basic calculator
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+result = num1 + num2
+print(result)
+output: Enter a number: 6
+Enter another number: 7
+67
+....Lol this isnt the answer we wanting right? its js like saying 1+1 = 11
+this happens when the user put the input it will convert into string. Python always think this as an string
+so, to actually make strings into number we use "int" it cant have a decimal number
+The correct version-------------------------
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+result = int(num1) + int(num2)
+print(result)
+output: 
+Enter a number: 1
+Enter another number: 2
+3
+As for the decimals we use float() since it has a decimal number
+num1 = input("Enter a number: ")
+num2 = input("Enter another number: ")
+result = float(num1) + int(num2)
+print(result)
+output:
+Enter a number: 1
+Enter another number: 2
+3.0
+its up to you if you want it as in decimal or not
+My second project---------------------------------Mad libs game
